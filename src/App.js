@@ -24,10 +24,10 @@ function App() {
           <AsideItem Icon={FiInfo} name="How it works" />
         </div>
         <div className="md:flex-grow md:w-3/4 w-full md:mr-12 flex flex-col">
-          <div className="mx-auto md:w-full w-10/12 bg-gradient-to-br from-blue-700 via-blue-600 to-blue-300 text-white text-3xl md:font-semibold md:text-4xl rounded-2xl px-24 pt-16 text-left pb-16 shadow-lg">
+          <div className="mx-auto md:w-full w-10/12 bg-gradient-to-br from-blue-700 via-blue-600 to-blue-300 text-white text-3xl md:font-semibold md:text-4xl rounded-2xl px-20 md:px-24 pt-16 text-left pb-16 shadow-lg">
             <div className="w-full">
-              Buys. Sell.{" "}
-              <span className="text-red-400 font-extrabold">Trade</span>.
+              Buy. Sell.{" "}
+              <span className="text-red-300 font-extrabold">Trade</span>.
               <div>Exclusive tracks from the worlds most exciting artists</div>
             </div>
             <div className="text-sm md:text-lg flex mt-8">
@@ -42,7 +42,7 @@ function App() {
         </div>
       </section>
       <section className="flex justify-center md:justify-end pb-24">
-        <div className="md:w-3/4 w-11/12 px-2 md:px-4 md:pr-10">
+        <div className="md:w-3/4 w-11/12 px-1 md:px-4 md:pr-10">
           <div className="md:text-2xl text-lg text-left font-bold mt-4">
             Top Artists
           </div>
