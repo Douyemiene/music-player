@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Artist({ num, name, price }) {
   return (
-    <div className="border-gray-200 border shadow-sm flex justify-between py-2 px-4 rounded-md text-sm">
+    <div className="border-gray-200 border shadow-sm flex justify-between py-2 px-4 rounded-md text-sm mb-4 lg:mb-0">
       <div>
         <div className="font-bold">
           <span className="pr-3 text-gray-400 font-semibold">{num}.</span>

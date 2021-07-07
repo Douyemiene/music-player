@@ -23,7 +23,7 @@ function App() {
           <AsideItem Icon={FiUsers} name="Following" />
           <AsideItem Icon={FiInfo} name="How it works" />
         </div>
-        <div className="md:flex-grow bg-red-200 md:w-3/4 w-full md:mr-12 flex flex-col">
+        <div className="md:flex-grow md:w-3/4 w-full md:mr-12 flex flex-col">
           <div className="mx-auto md:w-full  bg-gradient-to-br from-blue-700 via-blue-600 to-blue-300 text-white text-2xl font-semibold md:text-4xl rounded-2xl px-24 pt-16 text-left pb-16 shadow-lg">
             <div>
               Buys. Sell.{" "}
@@ -46,7 +46,7 @@ function App() {
           <div className="md:text-2xl text-lg text-left font-bold mt-4">
             Top Artists
           </div>
-          <div className="flex flex-col md:grid md:grid-cols-3 md:gap-4 pt-6">
+          <div className="flex flex-col lg:grid md:grid-cols-3 lg:gap-4 pt-6">
             <Artist num="1" name="Dimension" price="120" />
             <Artist num="2" name="Dimension" price="120" />
             <Artist num="3" name="Dimension" price="120" />
@@ -63,7 +63,7 @@ function App() {
           <div className="text-lg md:text-2xl text-left font-bold mt-12">
             Latest Releases
           </div>
-          <div className="flex flex-col md:grid md:grid-cols-3 gap-y-6 gap-x-12 pt-4 md:pr-8">
+          <div className="flex flex-col lg:grid lg:grid-cols-3 gap-y-6 gap-x-12 pt-4 lg:pr-8">
             <Release
               image="https://i1.sndcdn.com/artworks-ZcNbq2HCdTNebNGt-dm8AFg-t500x500.jpg"
               title="Alive"
