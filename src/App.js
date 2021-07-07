@@ -15,18 +15,19 @@ function App() {
   return (
     <div className="App ">
       <Navbar />
-      <section className="flex pt-12 text-gray-600 md:w-3/4 ">
-        <div className="md:w-1/4 md:pl-6 hidden md:block">
+      <section className="flex pt-12 text-gray-600 ">
+        <div className="md:w-1/4 md:pl-6 hidden md:block md:mr-12">
           <AsideItem Icon={FiRss} name="Explore" />
           <AsideItem Icon={FiGrid} name="My Dubplates" />
           <AsideItem Icon={FiHeadphones} name="Genres" />
           <AsideItem Icon={FiUsers} name="Following" />
           <AsideItem Icon={FiInfo} name="How it works" />
         </div>
-        <div className="flex-grow w-full">
-          <div className="w-10/12 mx-auto bg-gradient-to-br from-blue-700 via-blue-600 to-blue-300 text-white text-2xl font-semibold md:text-4xl rounded-lg  md:mr-12 px-24 pt-16 text-left pb-16 shadow-lg">
+        <div className="md:flex-grow bg-red-200 md:w-3/4 w-full md:mr-12 flex flex-col">
+          <div className="mx-auto md:w-full  bg-gradient-to-br from-blue-700 via-blue-600 to-blue-300 text-white text-2xl font-semibold md:text-4xl rounded-2xl px-24 pt-16 text-left pb-16 shadow-lg">
             <div>
-              Buy. Sell. <span className=" font-extrabold">Trade</span>.
+              Buys. Sell.{" "}
+              <span className="text-red-400 font-extrabold">Trade</span>.
               Exclusive tracks from the worlds most exciting artists
             </div>
             <div className="text-xs md:text-lg flex mt-8">
@@ -40,9 +41,11 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="flex justify-end pb-24">
-        <div className="w-3/4 px-4 pr-10">
-          <div className="text-2xl text-left font-bold mt-4">Top Artists</div>
+      <section className="flex justify-center md:justify-end pb-24">
+        <div className="md:w-3/4 px-4 md:pr-10">
+          <div className="md:text-2xl text-lg text-left font-bold mt-4">
+            Top Artists
+          </div>
           <div className="flex flex-col md:grid md:grid-cols-3 md:gap-4 pt-6">
             <Artist num="1" name="Dimension" price="120" />
             <Artist num="2" name="Dimension" price="120" />
@@ -57,10 +60,10 @@ function App() {
             <Artist num="11" name="Dimension" price="120" />
             <Artist num="12" name="Dimension" price="120" />
           </div>
-          <div className="text-2xl text-left font-bold mt-12">
+          <div className="text-lg md:text-2xl text-left font-bold mt-12">
             Latest Releases
           </div>
-          <div className="grid grid-cols-3 gap-y-6 gap-x-12 pt-4 pr-8">
+          <div className="flex flex-col md:grid md:grid-cols-3 gap-y-6 gap-x-12 pt-4 md:pr-8">
             <Release
               image="https://i1.sndcdn.com/artworks-ZcNbq2HCdTNebNGt-dm8AFg-t500x500.jpg"
               title="Alive"
