@@ -7,7 +7,7 @@ import { GiPauseButton } from "react-icons/gi";
 export default function Footer() {
   return (
     <footer className="w-full fixed bottom-0">
-      <div className=" flex justify-between items-stretch bg-gray-50 shadow-xl mx-auto p-4 md:pb-8">
+      <div className=" flex justify-between items-stretch bg-gray-50 shadow-xl mx-auto p-4 md:pb-8 mb-0">
         <div className="flex flex-1 items-stretch select-none">
           <div className="w-10 h-10 md:w-16 md:h-16 bg-gray-400">
             <img className="w-10 h-10 md:w-16 md:h-16  border shadow" />

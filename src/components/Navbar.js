@@ -1,10 +1,11 @@
 import React from "react";
 import Logo from "../Images/DupLogo.png";
 import { FiSearch, FiUser, FiMenu } from "react-icons/fi";
+import FeatherIcon from "feather-icons-react";
 import { GoPrimitiveDot } from "react-icons/go";
 const Navbar = () => {
   return (
-    <div className="flex h-20 py-2 px-1.5 md:px-4 justify-between border-b border-gray-300 items-center mb-4">
+    <div className="flex h-20 py-2 px-0.5 md:px-4 justify-between border-b border-gray-300 items-center mb-4">
       <div className="flex">
         <div className="flex mr-2 md:mr-24 items-center">
           <img
@@ -39,6 +40,7 @@ const Navbar = () => {
         <div className="rounded-full text-blue-600 bg-blue-200 px-2 py-2">
           <FiUser />
         </div>
+        <FeatherIcon icon="chevron-down" size={15} className="text-gray-900" />
       </div>
     </div>
   );
