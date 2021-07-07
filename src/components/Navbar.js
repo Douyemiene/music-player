@@ -1,10 +1,10 @@
 import React from "react";
 import Logo from "../Images/DupLogo.png";
-import { FiSearch, FiUser } from "react-icons/fi";
+import { FiSearch, FiUser, FiMenu } from "react-icons/fi";
 import { GoPrimitiveDot } from "react-icons/go";
 const Navbar = () => {
   return (
-    <div className="flex h-20 py-2 px-4 justify-between border-b border-gray-300 items-center mb-4">
+    <div className="flex h-20 py-2 px-1.5 md:px-4 justify-between border-b border-gray-300 items-center mb-4">
       <div className="flex">
         <div className="flex mr-2 md:mr-24 items-center">
           <img
@@ -12,8 +12,9 @@ const Navbar = () => {
             alt="Company Logo"
             className="h-12 mr-4 hidden  md:block"
           />
-          <div className="uppercase text-blue-600 md:text-2xl">
-            <span className="font-bold mt-6">Dupllate.</span>Trade
+          <FiMenu className="md:hidden mr-2" />
+          <div className="uppercase text-blue-600 md:text-2xl text-sm">
+            <span className="font-bold mt-6">Dubplate.</span>Trade
           </div>
         </div>
 
