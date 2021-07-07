@@ -15,8 +15,8 @@ function App() {
   return (
     <div className="App ">
       <Navbar />
-      <section className="flex pt-12 text-gray-600 bg-red-200 md:w-3/4 ">
-        <div className="md:w-1/4 md:pl-6 hidden w-0">
+      <section className="flex pt-12 text-gray-600 md:w-3/4 ">
+        <div className="md:w-1/4 md:pl-6 hidden md:block">
           <AsideItem Icon={FiRss} name="Explore" />
           <AsideItem Icon={FiGrid} name="My Dubplates" />
           <AsideItem Icon={FiHeadphones} name="Genres" />
@@ -29,8 +29,8 @@ function App() {
               Buy. Sell. <span className=" font-extrabold">Trade</span>.
               Exclusive tracks from the worlds most exciting artists
             </div>
-            <div className="text-sm md:text-lg flex mt-8">
-              <button className="uppercase flex-grow bg-blue-300 rounded-md text-center mr-4 py-2 px-2">
+            <div className="text-xs md:text-lg flex mt-8">
+              <button className="uppercase flex-grow bg-blue-400 border border-gray-200 rounded-md text-center mr-4 py-2 px-2">
                 listen now
               </button>
               <button className="uppercase flex-grow border border-gray-200 rounded-md text-center py-2 px-2">
