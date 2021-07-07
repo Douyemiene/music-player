@@ -5,7 +5,7 @@ import FeatherIcon from "feather-icons-react";
 import { GoPrimitiveDot } from "react-icons/go";
 const Navbar = () => {
   return (
-    <div className="flex h-14 md:h-20 py-2 px-0.5 md:px-4 justify-between border-b border-gray-300 items-center mb-2 md:mb-4">
+    <div className="flex h-11 md:h-20 py-2 px-0.5 md:px-4 justify-between border-b border-gray-300 items-center mb-2 md:mb-4">
       <div className="flex">
         <div className="flex mr-2 md:mr-24 items-center">
           <img
