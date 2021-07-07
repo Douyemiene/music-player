@@ -5,7 +5,7 @@ import FeatherIcon from "feather-icons-react";
 import { GoPrimitiveDot } from "react-icons/go";
 const Navbar = () => {
   return (
-    <div className="flex h-20 py-2 px-0.5 md:px-4 justify-between border-b border-gray-300 items-center mb-4">
+    <div className="flex h-14 md:h-20 py-2 px-0.5 md:px-4 justify-between border-b border-gray-300 items-center mb-2 md:mb-4">
       <div className="flex">
         <div className="flex mr-2 md:mr-24 items-center">
           <img
@@ -13,8 +13,8 @@ const Navbar = () => {
             alt="Company Logo"
             className="h-12 mr-4 hidden  md:block"
           />
-          <FiMenu className="md:hidden mr-2" />
-          <div className="uppercase text-blue-600 md:text-2xl text-sm">
+          <FiMenu className="md:hidden mr-4" />
+          <div className="uppercase text-blue-600 md:text-2xl text-sm mr-4 md:mr-0">
             <span className="font-bold mt-6">Dubplate.</span>Trade
           </div>
         </div>
@@ -22,7 +22,7 @@ const Navbar = () => {
         <div class="relative md:mr-6 self-center">
           <input
             type="search"
-            class="bg-gray-100 shadow h-8 border-0 p-3 pr-3 md:pl-10 w-10  md:w-72 rounded-full md:rounded-lg placeholder-text-gray-600 text-sm"
+            class="bg-gray-100 shadow h-8 border-0 p-3 pr-3 md:pl-10 w-10 pl-7  md:w-72 rounded-full md:rounded-lg placeholder-text-gray-600 text-sm"
             placeholder="Search for any artist, genre or song title"
             style={{
               fontSize: "12px",
