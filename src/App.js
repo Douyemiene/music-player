@@ -42,7 +42,7 @@ function App() {
         </div>
       </section>
       <section className="flex justify-center md:justify-end pb-24">
-        <div className="md:w-3/4 w-10/12 px-4 md:pr-10">
+        <div className="md:w-3/4 w-11/12 px-2 md:px-4 md:pr-10">
           <div className="md:text-2xl text-lg text-left font-bold mt-4">
             Top Artists
           </div>
