@@ -2,7 +2,7 @@
   "name": "duplates-dapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Douyemiene.github.io/wigxel-corp-ineterview",
+  "homepage": "http://Douyemiene.github.io/wigxel-corp",
   "dependencies": {
     "@craco/craco": "^6.2.0",
     "@testing-library/jest-dom": "^5.11.4",
