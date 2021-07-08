@@ -137,13 +137,8 @@ function App() {
   return (
     <div className="App ">
       <Navbar />
-      <section className="flex pt-12 text-gray-600 ">
+      <section className="flex pt-8 md:pt-12 text-gray-600 ">
         <div className="md:w-1/4 md:pl-6 hidden md:block md:mr-12">
-          {/* <AsideItem Icon={FiRss} name="Explore" />
-          <AsideItem Icon={FiGrid} name="My Dubplates" />
-          <AsideItem Icon={FiHeadphones} name="Genres" />
-          <AsideItem Icon={FiUsers} name="Following" />
-          <AsideItem Icon={FiInfo} name="How it works" /> */}
           {NavItems.map(({ icon, name }) => (
             <AsideItem Icon={icon} name={name} />
           ))}
