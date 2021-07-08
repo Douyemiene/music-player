@@ -167,8 +167,13 @@ function App() {
             Top Artists
           </div>
           <div className="flex flex-col lg:grid md:grid-cols-3 lg:gap-4 pt-6">
-            {artists.map(({ name, dimension, price }) => (
-              <Artist name={name} dimension={dimension} price={price} />
+            {artists.map(({ name, dimension, price }, index) => (
+              <Artist
+                name={name}
+                dimension={dimension}
+                price={price}
+                num={index + 1}
+              />
             ))}
           </div>
           <div className="text-lg md:text-2xl text-left font-bold mt-12">
