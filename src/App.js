@@ -180,15 +180,14 @@ function App() {
             Latest Releases
           </div>
           <div className="flex flex-col lg:grid lg:grid-cols-3 gap-y-6 gap-x-12 pt-4 lg:pr-8">
-            {latestReleases.map(
-              ({
-                title = { title },
-                artist = { artists },
-                price = { price },
-              }) => (
-                <Release title artist price />
-              )
-            )}
+            {latestReleases.map(({ title, artist, price, image }) => (
+              <Release
+                title={title}
+                artist={artist}
+                price={price}
+                image={image}
+              />
+            ))}
           </div>
         </div>
       </section>
