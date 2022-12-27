@@ -19,7 +19,7 @@ function App() {
     },
     {
       icon: FiGrid,
-      name: "My Dubplates",
+      name: "My playlists",
     },
     {
       icon: FiHeadphones,

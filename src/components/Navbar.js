@@ -18,8 +18,8 @@ const Navbar = () => {
             className="h-12 mr-4 hidden  md:block"
           />
           <FiMenu className="md:hidden mr-4" />
-          <div className="uppercase text-blue-600 md:text-2xl text-sm mr-4 md:mr-0">
-            <span className="font-bold mt-6">Dubplate.</span>Trade
+          <div className="uppercase text-blue-600 md:text-xl text-sm mr-4 md:mr-0">
+            <span className="font-bold mt-6">Dmusic</span>-player
           </div>
         </div>
 
